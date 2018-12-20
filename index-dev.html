@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PNTL</title>
+    <meta name="description" content="System fe ims intelligence">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#4285f4">
+</head>
+
+<body class="bg-gray">
+    <header class="navbar bg-secondary">
+        <section class="navbar-section">
+            <a href="#home" class="navbar-brand mr-2">PNTL - Sistema de Gestão de Incidentes</a>
+        </section>
+        <section class="navbar-center">
+        </section>
+        <section class="navbar-section">
+            <a href="#home" class="btn btn-link">Home</a>
+            <a href="#incident" class="btn btn-link">Incident</a>
+            <a href="#clothes" class="btn btn-link">Clothes</a>
+        </section>
+    </header>
+
+    <div id="main" class="container">
+        <div id="view">
+            <div class="loading loading-lg"></div>
+        </div>
+    </div>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker
+                .register('sw.js')
+                .then(function () {
+                    console.log('Service Worker Registered');
+                })
+                .catch(function () {
+                    console.warn('service worker failed');
+                });
+        }
+    </script>
+
+    <script src="js/libs.min.js"></script>
+    <!-- <script src="js/tags.min.js"></script> -->
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
