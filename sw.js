@@ -1,15 +1,15 @@
 var cacheName = 'fe-ims-intelligence-v1';
 var filesToCache = [
     '/',
-    '/index.html',
-    '/manifest.json',
-    '/js/libs.min.js',
-    '/js/scripts.min.js',
-    '/css/styles.min.css',
-    '/tags/clothes.js',
-    '/tags/home.js',
-    '/tags/incident.js',
-    '/tags/offline.js',
+    'index.html',
+    'manifest.json',
+    'js/libs.min.js',
+    'js/scripts.min.js',
+    'css/styles.min.css',
+    'tags/clothes.js',
+    'tags/home.js',
+    'tags/incident.js',
+    'tags/offline.js',
 ];
 
 self.addEventListener('install', function (e) {
