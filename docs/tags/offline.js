@@ -1,0 +1,1 @@
+riot.tag2("offline","<h1>Offline</h1>","","",function(opts){});
