@@ -1,5 +1,5 @@
-#Skeleton de um simples SPA
+# Skeleton de um simples SPA
 Tecnologias Riot.Js + Spectre.css + Gulp
 
-##DEMO
+## DEMO
 [https://gilsonterra.github.io/skeleton-front-spa](https://gilsonterra.github.io/skeleton-front-spa)
